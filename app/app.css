@@ -1,0 +1,10 @@
+.bottom-border{
+  border-bottom: solid 1px #000;
+}
+
+.right-border{
+  border-right: solid 1px #000;
+}
+.page{
+  height: 100%;
+}

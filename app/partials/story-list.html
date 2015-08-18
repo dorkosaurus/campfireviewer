@@ -1,0 +1,6 @@
+<section>
+    <h1>top stories</h1>
+    <ol ng-controller="StoryListCtrl">
+        <li ng-repeat="story in data.stories"><a href="#/stories/{{story.storyId}}">{{story.title}}</a></li>
+    </ol>
+</section>

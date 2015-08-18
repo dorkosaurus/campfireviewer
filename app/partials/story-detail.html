@@ -1,0 +1,10 @@
+<section>
+    <h1>{{data.story.title}}</h1>
+    <article>
+        <ol>
+            <li   ng-repeat="storyElement in data.story.storyElements">
+                <h2>{{storyElement.text}}</h2>
+            </li>
+        </ol>
+    </article>
+</section>
